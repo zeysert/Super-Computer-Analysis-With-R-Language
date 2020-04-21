@@ -3,7 +3,6 @@ library(tidyverse)
 library(readxl)
 
 
-# In this part, the data obtained from [1] is taken from the Excel file.
 ham_veri <- read_excel("/Users/cenkatlig/Super_Bilgisayar.xlsx") %>% tbl_df()
 
 # Then making the raw data smoother
